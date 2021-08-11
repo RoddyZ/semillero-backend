@@ -61,8 +61,8 @@ select	@w_me_description4	=	'GRUPOA'
 --=====================FIN ASIGNACION DE VARIABLE ESTUDIANTE 4 ============================
 
 --=====================ASIGNACION DE VARIABLE ESTUDIANTE 5 ================================
-select	@w_id_url5			=	''
-select 	@w_me_name5			=	''			/*nombre que aparecera en el menu, pertenece a cew_menu*/
+select	@w_id_url5			=	'views/GRAWC/ESTDN/T_GRAWCZDPCAYTF_810/1.0.0/VC_ESTUDIANHS_959810_TASK.html'
+select 	@w_me_name5			=	'MNU_JSH_GRA'			/*nombre que aparecera en el menu, pertenece a cew_menu*/
 select	@w_me_description5	=	'GRUPOA'
 --=====================FIN ASIGNACION DE VARIABLE ESTUDIANTE 5 ============================
 
