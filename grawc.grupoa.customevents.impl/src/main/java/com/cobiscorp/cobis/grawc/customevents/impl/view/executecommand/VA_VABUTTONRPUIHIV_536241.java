@@ -19,6 +19,8 @@ import org.apache.felix.scr.annotations.Property;
 import org.apache.felix.scr.annotations.Service;
 import com.cobiscorp.cobis.commons.domains.log.ILogger;
 import com.cobiscorp.cobis.commons.log.LogFactory;
+import com.cobiscorp.cobis.grawc.model.Estudiante;
+import com.cobiscorp.designer.api.DataEntity;
 import com.cobiscorp.designer.api.DynamicRequest;
 import com.cobiscorp.designer.api.customization.IExecuteCommand;
 import com.cobiscorp.designer.api.customization.arguments.IExecuteCommandEventArgs;
@@ -44,6 +46,21 @@ public class VA_VABUTTONRPUIHIV_536241 implements IExecuteCommand {
 			if (logger.isDebugEnabled()) {
 				logger.logDebug("Start executeCommand in VA_VABUTTONRPUIHIV_536241");
 			}
+			
+			DataEntity EstudianteJiby = arg0.getEntity(Estudiante.ENTITY_NAME);
+			
+			String nombre = EstudianteJiby.get(Estudiante.NOMBRE);
+			String apellido = EstudianteJiby.get(Estudiante.APELLIDO);
+			int edad = EstudianteJiby.get(Estudiante.EDAD);
+			String sexo = EstudianteJiby.get(Estudiante.SEXO);
+			
+			logger.logDebug("Inicio Ejecucion Jonathan Borbor");
+			
+			logger.logDebug("Nombre: " + nombre + ", apellido: " + apellido + ", edad: " + edad + ", sexo: " + sexo);
+			
+			logger.logDebug("Termina Ejecucion Jonathan Borbor");
+			
+			
 		} catch (Exception ex) {
 			DesignerManagerException.handleException(arg1.getMessageManager(), ex, logger);
 		}
