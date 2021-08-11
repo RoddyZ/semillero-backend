@@ -51,7 +51,7 @@ public class VA_VABUTTONTYMSTWE_972284 implements IExecuteCommand {
 			String apellido = daEstudiante.get(Estudiante.APELLIDO);
 			int edad = daEstudiante.get(Estudiante.EDAD);
 			String sexo = daEstudiante.get(Estudiante.SEXO);
-			logger.logDebug("Ejecutando boton JSH....");
+			logger.logDebug("Ejecutando boton RSZR....");
 			logger.logDebug("Nombre: " + nombre + ", apellido: " + apellido + ", edad: " + edad + ", sexo: " + sexo);
 			logger.logDebug("Ejecucion Roddy Zamora exitosa :)...");
 		} catch (Exception ex) {
