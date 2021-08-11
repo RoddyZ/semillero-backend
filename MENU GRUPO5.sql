@@ -1,4 +1,5 @@
 use cobis
+go
 /* Variables */
 declare	   
 	@w_id_menu			int,
@@ -48,8 +49,8 @@ select	@w_me_description2	=	'GRUPOA'
 --=====================FIN ASIGNACION DE VARIABLE ESTUDIANTE 2 ============================
 
 --=====================ASIGNACION DE VARIABLE ESTUDIANTE 3 ================================
-select	@w_id_url3			=	''
-select 	@w_me_name3			=	''			/*nombre que aparecera en el menu, pertenece a cew_menu*/
+select	@w_id_url3			=	'views/GRAWC/ESTDN/T_GRAWCNLNGQCIX_617/1.0.0/VC_ESTUDIANTT_532617_TASK.html'
+select 	@w_me_name3			=	'MNU_TONY_GRA'			/*nombre que aparecera en el menu, pertenece a cew_menu*/
 select	@w_me_description3	=	'GRUPOA'
 --=====================FIN ASIGNACION DE VARIABLE ESTUDIANTE 3 ============================
 
