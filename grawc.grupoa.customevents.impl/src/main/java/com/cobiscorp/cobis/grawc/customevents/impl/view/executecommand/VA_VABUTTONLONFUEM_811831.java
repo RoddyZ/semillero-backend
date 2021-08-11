@@ -52,6 +52,7 @@ public class VA_VABUTTONLONFUEM_811831 implements IExecuteCommand {
 				int edad = daEstudiante.get(Estudiante.EDAD);
 				String sexo = daEstudiante.get(Estudiante.SEXO);
 				
+				logger.logDebug("Ejecución servidor - Jhon Balón");
 				logger.logDebug("Nombre: " + nombre + ", apellido: " + apellido + ", edad: " + edad + ", sexo: " + sexo);
 			}
 		} catch (Exception ex) {
