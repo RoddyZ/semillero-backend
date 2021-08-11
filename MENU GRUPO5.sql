@@ -115,10 +115,19 @@ if  exists(select 1 from cew_menu where me_url = @w_id_url4)
 		delete from cew_menu where me_url = @w_id_url4
 		print 	'Borrando URL4...'
 	end
-
+//elimino el rol para el menu url5
+if  exists(select 1 from cew_menu_role where mro_id_role =  @w_id_rol	)
+	begin
+		delete from cew_menu_role
+		where 	mro_id_menu  	= 	@w_id_select 
+		and 	mro_id_role		=  	@w_id_url5
+		print	'Borrando Registro del rol...'
+	end
+//Elimino el menu
 if  exists(select 1 from cew_menu where me_url = @w_id_url5)
 	begin
-		delete from cew_menu where me_url = @w_id_url5
+		delete from cew_menu 
+		where me_url = @w_id_url5
 		print 	'Borrando URL5...'
 	end
 --select * from cew_menu order by me_id
