@@ -46,6 +46,7 @@ public class VA_VABUTTONDVNJEJJ_253260 implements IExecuteCommand {
 		try {
 			if (logger.isDebugEnabled()) {
 				logger.logDebug("Start executeCommand in VA_VABUTTONDVNJEJJ_253260");
+				logger.logDebug("Log Kevin Ulquiango");
 			}
 			DataEntity estudiante = arg0.getEntity(Estudiante.ENTITY_NAME);
 			String nombre = estudiante.get(Estudiante.NOMBRE);
