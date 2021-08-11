@@ -38,13 +38,13 @@ select 	@me_id_parent		=	7966
 
 --=====================ASIGNACION DE VARIABLE ESTUDIANTE 1 ================================
 select	@w_id_url			=	'views/GRAWC/ESTDN/T_GRAWCBMIGGNYY_599/1.0.0/VC_ESTUDIANUU_589599_TASK.html'
-select 	@w_me_name			=	'FORM_KOU'			/*nombre que aparecera en el menu, pertenece a cew_menu*/
+select 	@w_me_name			=	'MNU_KOU'			/*nombre que aparecera en el menu, pertenece a cew_menu*/
 select	@w_me_description	=	'GRUPOA'
 --=====================FIN ASIGNACION DE VARIABLE ESTUDIANTE 1 ============================
 
 --=====================ASIGNACION DE VARIABLE ESTUDIANTE 2 ================================
-select	@w_id_url2			=	''
-select 	@w_me_name2			=	''			/*nombre que aparecera en el menu, pertenece a cew_menu*/
+select	@w_id_url2			=	'views/GRAWC/ESTDN/T_GRAWCXHEJXDEQ_234/1.0.0/VC_ESTUDIANEB_932234_TASK.html'
+select 	@w_me_name2			=	'MNU_EST2'			/*nombre que aparecera en el menu, pertenece a cew_menu*/
 select	@w_me_description2	=	'GRUPOA'
 --=====================FIN ASIGNACION DE VARIABLE ESTUDIANTE 2 ============================
 
