@@ -19,6 +19,8 @@ import org.apache.felix.scr.annotations.Property;
 import org.apache.felix.scr.annotations.Service;
 import com.cobiscorp.cobis.commons.domains.log.ILogger;
 import com.cobiscorp.cobis.commons.log.LogFactory;
+import com.cobiscorp.cobis.grawc.model.Estudiante;
+import com.cobiscorp.designer.api.DataEntity;
 import com.cobiscorp.designer.api.DynamicRequest;
 import com.cobiscorp.designer.api.customization.IExecuteCommand;
 import com.cobiscorp.designer.api.customization.arguments.IExecuteCommandEventArgs;
@@ -42,8 +44,16 @@ public class VA_VABUTTONTYMSTWE_972284 implements IExecuteCommand {
 		// TODO Auto-generated method stub
 		try {
 			if (logger.isDebugEnabled()) {
-				logger.logDebug("Start executeCommand in VA_VABUTTONTYMSTWE_972284");
+				logger.logDebug("Inicio de log Roddy Zamora");
 			}
+			DataEntity daEstudiante = arg0.getEntity(Estudiante.ENTITY_NAME);
+			String nombre = daEstudiante.get(Estudiante.NOMBRE);
+			String apellido = daEstudiante.get(Estudiante.APELLIDO);
+			int edad = daEstudiante.get(Estudiante.EDAD);
+			String sexo = daEstudiante.get(Estudiante.SEXO);
+			logger.logDebug("Ejecutando boton JSH....");
+			logger.logDebug("Nombre: " + nombre + ", apellido: " + apellido + ", edad: " + edad + ", sexo: " + sexo);
+			logger.logDebug("Ejecucion boton JSH exitosa :)...");
 		} catch (Exception ex) {
 			DesignerManagerException.handleException(arg1.getMessageManager(), ex, logger);
 		}
