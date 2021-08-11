@@ -2,7 +2,7 @@
     "COMMONS": {
         "MENU": {
             "MNU_GRA_PADR":"Menu Padre GrupoA",
-			"FORM_KOU":"Formulario 1",
+			"MNU_KOU":"Formulario 1",
 			"MNU_EST2":"Formulario 2",
 			"MNU_TONY_GRA":"Formulario 3",
 			"MNU_RSZR_GRA":"Formulario 4",
